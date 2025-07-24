@@ -1,0 +1,32 @@
+{
+    "tasks": [
+        {
+            "id": 1,
+            "title": "Enviar relatorio",
+            "description": "Enviar o relatorio mensal para o departamento financeiro",
+            "status": "doing",
+            "priority": "high"
+        },
+        {
+            "id": 2,
+            "title" : "Reunião com as equipes",
+            "description": "Reunião para descutir o progresso do projeto e próximos passos.",
+            "status": "todo",
+            "priority": "high"
+        },
+        {
+            "id": 3,
+            "title": "Atualizar o site",
+            "description": "Fazer atualizações no site da empresa com novas informações.",
+            "status": "done",
+            "priority": "medium"
+        },
+        {
+            "id": 4,
+            "title": "Implementar testes",
+            "description": "Desenvolver os testes automatizados na nova funcionalidade do aplicativo.",
+            "status": "todo",
+            "priority": "medium"
+        }
+    ]
+}
