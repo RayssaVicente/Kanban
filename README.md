@@ -25,7 +25,7 @@ Um quadro de tarefas estilo Kanban, desenvolvido com **React + TypeScript**, usa
 ---
 
 ## 📂 Estrutura do Projeto
-(```bash
+```bash
 kanban/
 ├── public/
 ├── src/
@@ -48,9 +48,7 @@ kanban/
 ├── .env
 ├── package.json
 └── README.md
-
-)
-
+```
 
 ## 🔧 Instalação e Execução
 
@@ -65,14 +63,17 @@ cd kanban-react
 npm install
 
 ###3. Crie o arquivo .env
+
 Crie um arquivo .env na raiz com o seguinte conteúdo:
 
 VITE_API_URL=http://localhost:3000
 
 ###4. Inicie o json-server (API fake)
+
 npx json-server --watch db.json --port 3000
 
 ###5. Inicie o frontend (React + Vite)
-npm run dev
 
+npm run dev
+```
 
