@@ -50,11 +50,25 @@ kanban/
 
 ## 🔧 Instalação e Execução
 
+```bash
 ### 1. Clone o repositório
 
-```bash
 git clone https://github.com/seu-usuario/kanban-react.git
 cd kanban-react
 
+###2. Instale as dependências
+
+npm install
+
+###3. Crie o arquivo .env
+Crie um arquivo .env na raiz com o seguinte conteúdo:
+
+VITE_API_URL=http://localhost:3000
+
+###4. Inicie o json-server (API fake)
+npx json-server --watch db.json --port 3000
+
+###5. Inicie o frontend (React + Vite)
+npm run dev
 
 
