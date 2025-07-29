@@ -47,3 +47,14 @@ kanban/
 ├── .env
 ├── package.json
 └── README.md
+
+## 🔧 Instalação e Execução
+
+### 1. Clone o repositório
+
+```bash
+git clone https://github.com/seu-usuario/kanban-react.git
+cd kanban-react
+
+
+
