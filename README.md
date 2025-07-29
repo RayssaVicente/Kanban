@@ -25,6 +25,7 @@ Um quadro de tarefas estilo Kanban, desenvolvido com **React + TypeScript**, usa
 ---
 
 ## 📂 Estrutura do Projeto
+(```bash
 kanban/
 ├── public/
 ├── src/
@@ -47,6 +48,9 @@ kanban/
 ├── .env
 ├── package.json
 └── README.md
+
+)
+
 
 ## 🔧 Instalação e Execução
 
