@@ -25,25 +25,25 @@ Um quadro de tarefas estilo Kanban, desenvolvido com **React + TypeScript**, usa
 ---
 
 ## 📂 Estrutura do Projeto
-  kanban/
-  ├── public/
-  ├── src/
-  │ ├── components/
-  │ │ ├── CreateTaskForm.tsx
-  │ │ ├── TaskBoard.tsx
-  │ │ └── TaskCard.tsx
-  │ ├── contexts/
-  │ │ └── TasksContext.tsx
-  │ ├── entities/
-  │ │ └── Task.ts
-  │ ├── hooks/
-  │ │ └── useTasks.ts
-  │ ├── services/
-  │ │ └── api.ts
-  │ ├── App.tsx
-  │ ├── main.tsx
-  │ └── index.css
-  ├── db.json
-  ├── .env
-  ├── package.json
-  └── README.md
+kanban/
+├── public/
+├── src/
+│ ├── components/
+│ │ ├── CreateTaskForm.tsx
+│ │ ├── TaskBoard.tsx
+│ │ └── TaskCard.tsx
+│ ├── contexts/
+│ │ └── TasksContext.tsx
+│ ├── entities/
+│ │ └── Task.ts
+│ ├── hooks/
+│ │ └── useTasks.ts
+│ ├── services/
+│ │ └── api.ts
+│ ├── App.tsx
+│ ├── main.tsx
+│ └── index.css
+├── db.json
+├── .env
+├── package.json
+└── README.md
