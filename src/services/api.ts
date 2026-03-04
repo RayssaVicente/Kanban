@@ -2,14 +2,13 @@ import { Task } from "../entities/Task";
 
 export const tasksService = {
     async fetchTasks(): Promise<Task[]> {
-        const response = await fetch(`${import.meta.env.VITE_API_URL}/tasks`);
+        const response = await fetch(`https://kanban-c2n7.onrender.com/tasks`);
         const data: Task[] = await response.json();
         return data;
     },
 
     async createTask(attributes: Omit<Task, "id">): Promise<Task> {
-        const response = await fetch(
-            `${import.meta.env.VITE_API_URL}/tasks`, 
+        const response = await fetch(`https://kanban-c2n7.onrender.com/tasks`,
             {
                 method: "POST",
                 headers: {
@@ -23,7 +22,7 @@ export const tasksService = {
     },
 
     async updateTask(id: string, attributes: Partial<Omit<Task, "id">>): Promise<Task>{
-        const response = await fetch(`${import.meta.env.VITE_API_URL}/tasks/${id}`, {
+        const response = await fetch(`https://kanban-c2n7.onrender.com/tasks/${id}`, {
             method: "PATCH",
             headers: {
             "Content-Type": "application/json"
@@ -35,7 +34,7 @@ export const tasksService = {
     },
 
     async deleteTask(id: string): Promise<void>{
-        await fetch(`${import.meta.env.VITE_API_URL}/tasks/${id}`, {
+       await fetch(`https://kanban-c2n7.onrender.com/tasks/${id}`, {
             method : "DELETE"
         })
     }
