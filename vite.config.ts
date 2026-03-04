@@ -3,5 +3,5 @@ import react from '@vitejs/plugin-react'
 
 export default defineConfig({
   plugins: [react()],
-  base: "/Kanban/docs", // ⚠️ nome EXATO do seu repositório
+  base: "/Kanban/", // ⚠️ nome EXATO do seu repositório
 })
